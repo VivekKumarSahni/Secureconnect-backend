@@ -36,7 +36,7 @@ const Auth = (req,res, next)=>{
         }
 }
 app.use(cors({
-    origin: ["https://secureconnect.netlify.app",'http://localhost:3000'],
+    origin: ["https://secureconnect-vivek.netlify.app",'http://localhost:3000'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Include cookies if any in the request
   }));
